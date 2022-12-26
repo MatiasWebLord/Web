@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
+
+body {
+  font-family: sans-serif;
+  color: #fff;
+}
+
+main,
+.header {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  margin-top: 20px;
+  height: 90vh;
+  background: #1c123b;
+}
+
+.left-col {
+  flex: 1;
+  padding: 90px 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-col img {
+  width: 30%;
+  margin-bottom: 70px;
+}
+
+.left-col .header-text {
+  margin-top: auto;
+}
+
+.left-col h1 {
+  font-size: 9rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.left-col p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  color: #aaaaaa;
+}
+
+.right-col {
+  background-image: url("./images/_3a44c31e-a5bc-11e6-9005-31625660f15f.webp");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+}
+
+.right-col img {
+  width: 60%;
+}
+
+main {
+  background-color: #eee;
+  color: #222;
+  padding: 60px 70px;
+}
+/* 
+.table-content {
+  flex-basis: 15%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  padding-left: 10px;
+  position: sticky;
+}
+
+.table-content h3 {
+  margin-bottom: 28px;
+  font-size: 2.4rem;
+}
+
+.table-content a:link,
+.table-content a:visited {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-size: 1.9rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.table-content a:hover,
+.table-content a:active {
+  text-decoration: underline;
+}
+
+.table-content h1 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+} */
+
+.main-content {
+  flex-basis: 85%;
+  padding: 0 16px;
+}
+
+.main-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.main-content p {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+.main-content ul {
+  margin-top: 20px;
+}
+
+.main-content ul li {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.main-content section {
+  margin-bottom: 60px;
+}
+
+.main-content img {
+  width: 90%;
+  margin-bottom: 28px;
+}
