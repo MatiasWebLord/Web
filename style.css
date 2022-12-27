@@ -137,7 +137,7 @@ main {
   margin-bottom: 28px;
 }
 
-@media (max-width: 760px) {
+/* @media (max-width: 760px) {
   main,
   .header {
     max-width: 100%;
@@ -173,4 +173,4 @@ main {
   .main-content {
     padding: 0;
   }
-}
+} */
