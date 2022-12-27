@@ -160,3 +160,17 @@ main {
     padding: 56px 46px;
   }
 }
+
+@media (max-width: 500px) {
+  main {
+    padding: 56px 20px;
+  }
+
+  .left-col {
+    padding: 20px;
+  }
+
+  .main-content {
+    padding: 0;
+  }
+}
