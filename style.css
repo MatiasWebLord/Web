@@ -136,3 +136,27 @@ main {
   width: 90%;
   margin-bottom: 28px;
 }
+
+@media (max-width: 760px) {
+  main,
+  .header {
+    max-width: 100%;
+  }
+
+  .header {
+    margin-top: 0;
+    flex-direction: column;
+  }
+
+  .right-col {
+    display: none;
+  }
+
+  .left-col {
+    padding: 56px 46px;
+  }
+
+  main {
+    padding: 56px 46px;
+  }
+}
